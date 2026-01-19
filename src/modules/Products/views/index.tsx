@@ -31,7 +31,7 @@ export const Products = () => {
   if(isEmpty){
     <Text>No Products Found</Text> 
   }
-  const navigate = useNavigate()
+  // const navigate = useNavigate()
   return (
     <Grid>
       <Title >productWithDiscountHigherThan10% </Title>
