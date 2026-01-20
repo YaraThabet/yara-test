@@ -68,7 +68,7 @@ export const Products = () => {
        {productWithDiscountLowerThan10.map((product) => {
         return (
       
-          <Grid.Col span={4} key={product.id}  onClick={() => navigate({ to:"/ptoduct/$productId", params:{}})}>
+          <Grid.Col span={4} key={product.id} >
             <Card shadow="sm" padding="lg" radius="md" withBorder>
               <Card.Section>
                 <Image src={product.image} height={160} alt="yara" />
